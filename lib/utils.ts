@@ -57,3 +57,15 @@ export const toDateString = (date: Date) => {
 export const random = (min: number, max: number) => {
   return Math.floor(Math.random() * (max - min + 1) + min);
 };
+
+export function classNames(...classes: any[]) {
+  return classes.filter(Boolean).join(' ')
+}
+
+// className={
+//   classNames(
+//     "flex flex-col",
+//     primary ? "bg-teal-600" : "bg-white",
+//     active ? 'bg-slate-100' : '',
+//   )
+// }
