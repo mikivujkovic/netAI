@@ -4,12 +4,13 @@ import { Analytics } from "@vercel/analytics/react";
 import { Providers } from "./providers";
 import { Metadata } from "next";
 import { cn } from "@/lib/utils";
+import netAIImage from "@/public/netAI.png";  // Import the image
 
 const title =
   "netAI - generate landing pages in seconds";
 const description =
   "netAI is a tool that allows you to generate landing pages in seconds. It's the fastest way to create a landing page";
-const image = "https://vercel.pub/thumbnail.png";
+const image = netAIImage;
 
 export const metadata: Metadata = {
   title,
