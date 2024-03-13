@@ -10,7 +10,8 @@ const title =
   "netAI - generate landing pages in seconds";
 const description =
   "netAI is a tool that allows you to generate landing pages in seconds. It's the fastest way to create a landing page";
-const image = netAIImage;
+// const image = "https://vercel.pub/thumbnail.png";
+const image = "netAI.png" // Create the URL object
 
 export const metadata: Metadata = {
   title,
