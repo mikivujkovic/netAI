@@ -102,11 +102,11 @@ export default function CreateSiteModal() {
             htmlFor="description"
             className="text-sm font-medium text-stone-500"
           >
-            Description
+            Prompt
           </label>
           <textarea
             name="description"
-            placeholder="Description about why my site is so awesome"
+            placeholder="Describe teh landing page you want"
             value={data.description}
             onChange={(e) => setData({ ...data, description: e.target.value })}
             maxLength={140}

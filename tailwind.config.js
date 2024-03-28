@@ -11,6 +11,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        "pitch" : "url('/pozadina.png')",
+      },
       colors: {
         // light mode
         tremor: {
