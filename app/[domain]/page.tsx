@@ -5,7 +5,7 @@ import BlurImage from "@/components/blur-image";
 import { placeholderBlurhash, toDateString } from "@/lib/utils";
 import BlogCard from "@/components/blog-card";
 import { getPostsForSite, getSiteData } from "@/lib/fetchers";
-import Image from "next/image";\
+import Image from "next/image";
 
 import logo from "@/public/logo-white.png";
 import competition from "@/public/competition.png";
