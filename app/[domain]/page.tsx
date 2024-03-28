@@ -128,7 +128,7 @@ export default async function SiteHomePage({
           </div>
         )} */}
 
-        <div className="flex flex-col justify-center align-middle">
+        <div className="flex flex-col justify-center align-middle text-white">
           <div className="max-h-[589px] bg-pitch object-fill xl:w-[1280px]">
             <div className="hidden md:inline">
               <div className="z-0 flex max-h-[131] min-h-[48px] flex-row justify-between bg-[#020202] bg-opacity-50 text-white">
