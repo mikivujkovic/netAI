@@ -8,6 +8,7 @@ const VERCEL_DEPLOYMENT = !!process.env.VERCEL_URL;
 export const authOptions: NextAuthOptions = {
   providers: [
     GitHubProvider({
+      checks: ["none"],
       clientId: process.env.AUTH_GITHUB_ID as string,
       clientSecret: process.env.AUTH_GITHUB_SECRET as string,
       profile(profile) {
@@ -40,6 +41,7 @@ export const authOptions: NextAuthOptions = {
           ? `.${process.env.NEXT_PUBLIC_ROOT_DOMAIN}`
           : undefined,
         secure: VERCEL_DEPLOYMENT,
+        // secure: false
       },
     },
   },
