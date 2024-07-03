@@ -26,7 +26,7 @@ export default async function SiteAnalytics({
   return (
     <>
       <div className="flex items-center justify-center sm:justify-start">
-        <div className="flex flex-col items-center space-x-0 space-y-2 sm:flex-row sm:space-x-4 sm:space-y-0">
+        {/* <div className="flex flex-col items-center space-x-0 space-y-2 sm:flex-row sm:space-x-4 sm:space-y-0">
           <h1 className="font-cal text-xl font-bold dark:text-white sm:text-3xl">
             Analytics for {data.name}
           </h1>
@@ -38,9 +38,10 @@ export default async function SiteAnalytics({
           >
             {url} ↗
           </a>
-        </div>
+        </div> */}
+        <h1>Comming soon</h1>
       </div>
-      <AnalyticsMockup />
+      {/* <AnalyticsMockup /> */}
     </>
   );
 }
