@@ -46,7 +46,7 @@ export default async function SitePosts({
           </a>
         </div>
         <CreatePostButton /> */}
-        <h1>Comming soon</h1>
+        <h1 className="dark:text-white">Comming soon</h1>
       </div>
       {/* <Posts siteId={decodeURIComponent(params.id)} /> */}
     </>
