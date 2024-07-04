@@ -10,6 +10,8 @@ import { useModal } from "./provider";
 import va from "@vercel/analytics";
 import { useEffect, useState } from "react";
 
+export const maxDuration = 60; // Applies to the actions
+
 export default function CreateSiteModal() {
   const router = useRouter();
   const modal = useModal();
