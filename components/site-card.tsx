@@ -26,7 +26,8 @@ export default function SiteCard({ data }: { data: Site }) {
             {data.name}
           </h3>
           <p className="mt-2 line-clamp-1 text-sm font-normal leading-snug text-stone-500 dark:text-stone-400">
-            {data.description}
+            {/* {data.description} */}
+            {typeof data.description === 'string' ? data.description : JSON.stringify(data.description)}
           </p>
         </div>
       </Link>

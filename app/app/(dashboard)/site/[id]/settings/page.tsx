@@ -37,7 +37,7 @@ export default async function SiteSettingsIndex({
         inputAttrs={{
           name: "description",
           type: "text",
-          defaultValue: data?.description!,
+          defaultValue: data?.description! as string,
           placeholder: "A blog about really interesting things.",
         }}
         handleSubmit={updateSite}
