@@ -23,6 +23,8 @@ const nanoid = customAlphabet(
   7,
 ); // 7-character random string
 
+export const maxDuration = 60; // Applies to the actions
+
 export const createSite = async (formData: FormData) => {
   const session = await getSession();
   if (!session?.user.id) {
