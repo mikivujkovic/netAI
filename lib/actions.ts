@@ -16,6 +16,8 @@ import { put } from "@vercel/blob";
 import { customAlphabet } from "nanoid";
 import { getBlurDataURL } from "@/lib/utils";
 
+import { generateContent } from "../app/actions";
+
 const nanoid = customAlphabet(
   "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz",
   7,
@@ -32,11 +34,14 @@ export const createSite = async (formData: FormData) => {
   const description = formData.get("description") as string;
   const subdomain = formData.get("subdomain") as string;
 
+  const content = await generateContent(description, name);
+
   try {
     const response = await prisma.site.create({
       data: {
         name,
         description,
+        content,
         subdomain,
         user: {
           connect: {
