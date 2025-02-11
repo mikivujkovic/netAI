@@ -46,8 +46,8 @@ const CTA = ({ type, props, design, name }: ComponentProps) => {
           backgroundColor={design.colors.background}
           textColor={design.colors.primary}
           secondaryColor={design.colors.secondary}
-          primaryColor={design.color.primary}
-          accentColor={design.color.accent}
+          primaryColor={design.colors.primary}
+          accentColor={design.colors.accent}
           font={design.fonts.heading}
           name={name}
           title={props.title}
@@ -61,8 +61,8 @@ const CTA = ({ type, props, design, name }: ComponentProps) => {
           backgroundColor={design.colors.background}
           textColor={design.colors.primary}
           secondaryColor={design.colors.secondary}
-          primaryColor={design.color.primary}
-          accentColor={design.color.accent}
+          primaryColor={design.colors.primary}
+          accentColor={design.colors.accent}
           font={design.fonts.heading}
           name={name}
           title={props.title}
@@ -76,8 +76,8 @@ const CTA = ({ type, props, design, name }: ComponentProps) => {
           backgroundColor={design.colors.background}
           textColor={design.colors.primary}
           secondaryColor={design.colors.secondary}
-          primaryColor={design.color.primary}
-          accentColor={design.color.accent}
+          primaryColor={design.colors.primary}
+          accentColor={design.colors.accent}
           font={design.fonts.heading}
           name={name}
           title={props.title}
@@ -91,8 +91,8 @@ const CTA = ({ type, props, design, name }: ComponentProps) => {
           backgroundColor={design.colors.background}
           textColor={design.colors.primary}
           secondaryColor={design.colors.secondary}
-          primaryColor={design.color.primary}
-          accentColor={design.color.accent}
+          primaryColor={design.colors.primary}
+          accentColor={design.colors.accent}
           font={design.fonts.heading}
           name={name}
           title={props.title}
@@ -106,8 +106,8 @@ const CTA = ({ type, props, design, name }: ComponentProps) => {
           backgroundColor={design.colors.background}
           textColor={design.colors.primary}
           secondaryColor={design.colors.secondary}
-          primaryColor={design.color.primary}
-          accentColor={design.color.accent}
+          primaryColor={design.colors.primary}
+          accentColor={design.colors.accent}
           font={design.fonts.heading}
           name={name}
           title={props.title}
