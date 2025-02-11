@@ -70,7 +70,7 @@ export const generateContent = async (prompt: string, name: string) => {
       {
         type: "Heading",
         props: {
-          variant: getRandomNumber(2),
+          variant: getRandomNumber(4),
           links: [
             {
               href: "#solution",
@@ -90,7 +90,7 @@ export const generateContent = async (prompt: string, name: string) => {
       {
         type: "Hero",
         props: {
-          variant: getRandomNumber(2),
+          variant: getRandomNumber(4),
           headline: JSON.parse(hero).headline,
           description: JSON.parse(hero).description,
         },
@@ -98,7 +98,7 @@ export const generateContent = async (prompt: string, name: string) => {
       {
         type: "Problem",
         props: {
-          variant: getRandomNumber(2),
+          variant: getRandomNumber(4),
           problem: JSON.parse(problem).problem,
           agitate: JSON.parse(problem).agitate,
           solve: JSON.parse(problem).solve,
@@ -107,7 +107,7 @@ export const generateContent = async (prompt: string, name: string) => {
       {
         type: "Benefits",
         props: {
-          variant: getRandomNumber(2),
+          variant: getRandomNumber(4),
           title: JSON.parse(benefits).title,
           description: JSON.parse(benefits).description,
           benefits: benefitsArrray,
@@ -116,7 +116,7 @@ export const generateContent = async (prompt: string, name: string) => {
       {
         type: "CTA",
         props: {
-          variant: getRandomNumber(2),
+          variant: getRandomNumber(4),
           title: JSON.parse(cta).title,
           description: JSON.parse(cta).description,
           button: JSON.parse(cta).button,
@@ -126,7 +126,7 @@ export const generateContent = async (prompt: string, name: string) => {
       {
         type: "Footer",
         props: {
-          variant: getRandomNumber(2),
+          variant: getRandomNumber(4),
           text: name,
         },
       },
