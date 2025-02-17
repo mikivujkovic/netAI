@@ -42,13 +42,14 @@ export default async function SiteHomePage({
     <>
       <div className="w-full">
         {data.content && JSON.parse(data.content).components.map((component: { type: string; props: any; }, index: Key | null | undefined) => {
+          const parsedContent = JSON.parse(data.content as string);
           return (
             <ComponentHandler
               key={index}
               type={component.type}
               props={component.props}
-              design={content.design}
-              name={content.name}
+              design={parsedContent.design}
+              name={parsedContent.name}
             />
           );
         })}
