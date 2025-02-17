@@ -20,7 +20,7 @@ export const generateJson = async (
   const generateOpenAI = async (schema: z.ZodObject<any>, prompt: string) => {
     const { object } = await generateObject({
       schema: schema,
-      model: openai("gpt-3.5-turbo"),
+      model: openai("chatgpt-4o-latest"),
       mode: "json",
       prompt: prompt,
     });
