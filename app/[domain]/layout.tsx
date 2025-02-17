@@ -100,7 +100,7 @@ export default async function SiteLayout({
         </div>
       </div> */}
 
-      <div className="mt-2">{children}</div>
+      <div>{children}</div>
 
       {/* {domain == `demo.${process.env.NEXT_PUBLIC_ROOT_DOMAIN}` ||
       domain == `platformize.co` ? (
